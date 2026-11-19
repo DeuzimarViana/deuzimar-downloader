@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="deuzimar-downloader" width="100%">
+</p>
+
 # 🔥 Omega Vermelho Downloader
 
 <div align="center">
