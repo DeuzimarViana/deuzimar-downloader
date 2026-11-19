@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="450" viewBox="0 0 1600 450" role="img" aria-label="deuzimar-downloader banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a12"/>
+      <stop offset="0.55" stop-color="#0a1226"/>
+      <stop offset="1" stop-color="#1a0a16"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f6bff"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2e4d"/>
+      <stop offset="1" stop-color="#ff6a3d"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f6bff"/>
+      <stop offset="0.5" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#ff2e4d"/>
+    </linearGradient>
+    <radialGradient id="glowB" cx="0.1" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="0.92" cy="0.55" r="0.45">
+      <stop offset="0" stop-color="#ff2e4d" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ff2e4d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1b2a4a" stroke-width="1" opacity="0.5"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+      .title { font-size: 108px; font-weight: 800; letter-spacing: -2px; }
+      .tag { font-size: 38px; font-weight: 700; fill: #e4ecff; }
+      .term { font-size: 32px; font-weight: 700; fill: #9fdcff; }
+      .dim { fill: #7f93b8; }
+      .pill { font-size: 22px; font-weight: 800; letter-spacing: 3px; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      .arrow { animation: drop 1.8s ease-in-out infinite; }
+      .ringB { animation: pulse 2.6s ease-in-out infinite; transform-origin: 1470px 225px; }
+      .ringR { animation: pulse 2.6s ease-in-out infinite reverse; transform-origin: 1470px 225px; }
+      .glitchR { animation: gR 3.2s steps(1) infinite; }
+      .glitchB { animation: gB 3.2s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes drop { 0%,100% { transform: translateY(-6px); } 50% { transform: translateY(8px); } }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1); } 50% { opacity: .95; transform: scale(1.05); } }
+      @keyframes gR { 0%,90%,100% { transform: translate(4px,3px); } 93% { transform: translate(-7px,0); } 96% { transform: translate(8px,-2px); } }
+      @keyframes gB { 0%,90%,100% { transform: translate(-4px,-3px); } 93% { transform: translate(7px,1px); } 96% { transform: translate(-8px,2px); } }
+    </style>
+  </defs>
+
+  <!-- fundo retangular (cantos retos) -->
+  <rect width="1600" height="450" fill="url(#bg)"/>
+  <rect width="1600" height="450" fill="url(#grid)"/>
+  <rect width="1600" height="450" fill="url(#glowB)"/>
+  <rect width="1600" height="450" fill="url(#glowR)"/>
+
+  <!-- barras de topo e rodapé -->
+  <rect x="0" y="0" width="1600" height="8" fill="url(#bar)"/>
+  <rect x="0" y="442" width="1600" height="8" fill="url(#bar)"/>
+  <!-- faixas laterais -->
+  <rect x="0" y="8" width="8" height="434" fill="#2f6bff"/>
+  <rect x="1592" y="8" width="8" height="434" fill="#ff2e4d"/>
+
+  <!-- janela terminal -->
+  <rect x="50" y="36" width="16" height="16" fill="#ff2e4d"/>
+  <rect x="76" y="36" width="16" height="16" fill="#ffbd2e"/>
+  <rect x="102" y="36" width="16" height="16" fill="#2f6bff"/>
+  <text x="138" y="51" class="mono dim" font-size="20">~/deuzimar-downloader</text>
+
+  <!-- título grande com glitch -->
+  <text x="50" y="185" class="mono title" fill="#ff2e4d" opacity="0.9"><tspan class="glitchR">deuzimar-downloader</tspan></text>
+  <text x="50" y="185" class="mono title" fill="#2f6bff" opacity="0.9"><tspan class="glitchB">deuzimar-downloader</tspan></text>
+  <text x="50" y="185" class="mono title" fill="#ffffff">deuzimar-downloader</text>
+
+  <!-- sublinhado duplo -->
+  <rect x="52" y="208" width="760" height="8" fill="url(#blue)"/>
+  <rect x="822" y="208" width="240" height="8" fill="url(#red)"/>
+
+  <text x="52" y="272" class="mono tag">Baixe o que importa. Rápido e direto do terminal.</text>
+
+  <!-- pills retangulares -->
+  <g class="mono pill">
+    <rect x="52" y="302" width="170" height="52" fill="#2f6bff" fill-opacity="0.2" stroke="#2f6bff" stroke-width="2"/>
+    <text x="137" y="337" text-anchor="middle" fill="#8fb4ff">RÁPIDO</text>
+    <rect x="238" y="302" width="180" height="52" fill="#ff2e4d" fill-opacity="0.2" stroke="#ff2e4d" stroke-width="2"/>
+    <text x="328" y="337" text-anchor="middle" fill="#ff8fa0">SIMPLES</text>
+    <rect x="434" y="302" width="120" height="52" fill="#2f6bff" fill-opacity="0.2" stroke="#2f6bff" stroke-width="2"/>
+    <text x="494" y="337" text-anchor="middle" fill="#8fb4ff">CLI</text>
+  </g>
+
+  <text x="52" y="408" class="mono term"><tspan fill="#ff2e4d">$</tspan> python downloader.py <tspan class="dim">--url</tspan> &lt;link&gt;<tspan class="cursor" fill="#00d4ff"> ▍</tspan></text>
+
+  <!-- ícone de download -->
+  <circle class="ringB" cx="1470" cy="225" r="100" fill="none" stroke="url(#blue)" stroke-width="4" stroke-dasharray="30 12"/>
+  <circle class="ringR" cx="1470" cy="225" r="82" fill="none" stroke="url(#red)" stroke-width="3" stroke-dasharray="12 8"/>
+  <circle cx="1470" cy="225" r="62" fill="#0a1226" stroke="#2f6bff" stroke-opacity="0.5" stroke-width="2"/>
+  <g class="arrow" stroke="url(#blue)" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" fill="none">
+    <path d="M1470 195 V243"/>
+    <path d="M1448 223 L1470 245 L1492 223"/>
+  </g>
+  <path d="M1444 268 H1496" stroke="url(#red)" stroke-width="12" stroke-linecap="square"/>
+
+  <text x="1548" y="418" text-anchor="end" class="mono dim" font-size="20">by DeuzimarViana</text>
+</svg>
