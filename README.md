@@ -34,7 +34,7 @@
 ### Instalação
 
 ```bash
-git clone https://github.com/OmegaVermelho/deuzimar-downloader.git
+git clone https://github.com/DeuzimarViana/deuzimar-downloader.git
 cd deuzimar-downloader
 chmod +x downloader.sh
 ```
@@ -67,7 +67,7 @@ Contribuições são bem-vindas! Por favor:
 
 ## 🐛 Issues
 
-Encontrou um bug? [Abra uma issue](https://github.com/OmegaVermelho/deuzimar-downloader/issues)
+Encontrou um bug? [Abra uma issue](https://github.com/DeuzimarViana/deuzimar-downloader/issues)
 
 ---
 
