@@ -2,7 +2,7 @@
   <img src="banner.svg" alt="deuzimar-downloader" width="100%">
 </p>
 
-# 🔥 Omega Vermelho Downloader
+# 🔥 deuzimar-downloader
 
 <div align="center">
 
@@ -79,7 +79,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 <div align="center">
 
-**Desenvolvido com ❤️ por [OmegaVermelho](https://github.com/OmegaVermelho)**
+**Desenvolvido com ❤️ por [DeuzimarViana](https://github.com/DeuzimarViana)**
 
 ⭐ Se você gostou deste projeto, considere dar uma estrela!
 
