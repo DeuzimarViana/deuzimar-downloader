@@ -90,7 +90,7 @@
     <text x="494" y="337" text-anchor="middle" fill="#8fb4ff">CLI</text>
   </g>
 
-  <text x="52" y="408" class="mono term"><tspan fill="#ff2e4d">$</tspan> python downloader.py <tspan class="dim">--url</tspan> &lt;link&gt;<tspan class="cursor" fill="#00d4ff"> ▍</tspan></text>
+  <text x="52" y="408" class="mono term"><tspan fill="#ff2e4d">$</tspan> ./downloader.sh <tspan class="dim">[URL]</tspan><tspan class="cursor" fill="#00d4ff"> ▍</tspan></text>
 
   <!-- ícone de download -->
   <circle class="ringB" cx="1470" cy="225" r="100" fill="none" stroke="url(#blue)" stroke-width="4" stroke-dasharray="30 12"/>
